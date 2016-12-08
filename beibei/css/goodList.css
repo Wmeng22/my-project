@@ -1,0 +1,42 @@
+
+.wrap-l-show{width: 100%;}
+.l-show{background: #fff;border: 1px solid #eee;padding: 0 18px;margin: 20px auto;width: 1044px;}
+.l-show .sort{border-bottom: 1px dashed #eee;padding: 15px 0;}
+.l-show .sort span{color: #666;margin-right: 20px;}
+.brands{padding: 15px 0;color: #666}
+.brands .note{float: left;}
+.brands ul{height: 205px;width: 950px;overflow-x: hidden;overflow-y: scroll;float: left;margin-left: 15px;}
+.brands ul li{float: left; border: 1px solid #ececec;position: relative;width: 98px;height: 48px;text-align: center;}
+.brands ul li a{width: 98px;height: 48px;display: block;}
+.brands ul li a img{margin-top: 6px;width: 80px;height: 40px;}
+.brands ul li a span{display:none;width:100%;overflow:hidden;position: absolute;left: 0;top:0;height:32px;background: #fff;color:#333;padding-top: 16px;line-height: 16px;}
+
+.wrap-l-contain{width: 100%;}
+.l-contain{margin-bottom:20px;width: 1044px;margin: 0 auto;background: #fff;border:1px solid #eee;padding: 20px 18px;}
+.l-contain ul {float: left;}
+.l-contain ul li{float: left;margin-left: 10px;color: #999;padding: 2px 8px;border: 1px solid #ddd;}
+.l-contain ul li.first{border: 1px solid #ff4965;color: #fff;background: #ff4965;}
+.l-contain .position{float:right;}
+.l-contain .position span{color: #666;margin-left: 20px;}
+.l-contain .position .all{color: red;margin-left: 0;}
+
+.wrap-l-content{width: 100%;}
+.l-content{width: 1080px;margin: 0 auto;}
+.wrap-l-content .l-content ul{width: 1110px;overflow: hidden;}
+.wrap-l-content .l-content ul li{float: left;width: 255px;height: 330px;margin: 0 20px 20px 0;background: #fff;}
+.l-content ul li a{display: block;border: 1px solid #eee;width: 253px;height: 328px;cursor: pointer;}
+.l-content ul li a:hover{border: 1px solid red;}
+.l-content ul li a img{height: 253px;width: 253px;}
+.l-content ul li a p{margin: 5px 10px;height: 22px;line-height: 22px;overflow: hidden;color: #666;text-overflow: ellipsis; white-space: nowrap;}
+.l-content ul li a .price-fo{margin: 0 10px;color: #999;}
+.l-content ul li a .symbol{font-size: 18px;color: #ff4965;margin-right: -2px;font-weight: 400;}
+.l-content ul li a .int{margin-right: -8px;letter-spacing: -1px;color: #ff4965;font-size: 24px;font-weight: 700;}
+.l-content ul li a .float{font-size: 18px;letter-spacing: -1px;color: #ff4965;margin-right: 4px;font-weight: 700;}
+.l-content ul li a .account{float: right;color: #999;font-size: 14px;margin-top: 8px;margin-right: 10px;}
+
+.wrap-l-content .pagination{margin: 20px 0 15px ;padding: 3px;text-align: center;}
+.wrap-l-content .pagination a{color:#777;background: #fff; border: 1px solid #e3e3e3;border-radius: 14px;display: inline-block;font-weight: 700;height: 28px;line-height: 28px;margin: 0 3px;padding: 0 10px;}
+.wrap-l-content .pagination span{color:#777;background: #fff; border: 1px solid #e3e3e3;border-radius: 14px;display: inline-block;font-weight: 700;height: 28px;line-height: 28px;margin: 0 3px;padding: 0 10px;}
+
+
+

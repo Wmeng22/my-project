@@ -1,0 +1,80 @@
+
+
+<!--顶部导航-->
+<div class="wrap-top">
+	<div class="top">
+			<ul>
+				<li class="zhuangtai">您好，<a href="login.html" class="logined">请登录</a>&nbsp;<a href="register" class="register">免费注册</a></li>
+				<li class="seg"></li>
+				<li><a href="#">商家中心</a></li>
+				<li class="seg"></li>
+				<li><i class="fa fa-user-circle"></i><a href="#">联系客服</a><i class="fa fa-angle-down"></i></li>
+				<li class="seg"></li>
+				<li><a href="#">关注</a><i class="fa fa-angle-down"></i></li>
+			</ul>
+			<script>
+			$(function(){
+			   //判断是否已经登录,改变登录状态
+			   console.log("kk")
+			    var $Cookie   = $.cookie('login');
+				if($Cookie=="" || $Cookie==undefined){
+					$('.logined').html("请登录");
+
+					
+				}else{
+					
+					var obj = JSON.parse($Cookie);
+					console.log(obj)
+					if(obj.type==true){
+						console.log('登录成功');
+						$('.logined').remove();
+						$('.register').remove();
+
+						$('.zhuangtai').append($('<a style="color:red" class="loginName">'+obj.name+'</a><a style="margin-left:6px" class="loginout">[退出]</a>'));
+					}else{
+						$('.logined').html("请登录")
+					}
+				}
+				
+				//点击退出
+				$('.loginout').click(function(){
+					var oldCookie=$.cookie("login");
+			  	    var clearCookie=JSON.parse(oldCookie);
+			  	
+			  	    clearCookie="";
+			  	    var user=$('.loginName').html();
+			  	    console.log(user)
+//			  	   
+			  	    $('.loginName').remove();
+			  	    $('.loginout').remove();
+			  	    $('.zhuangtai').append($('<a href="login.html" class="logined">请登录</a>&nbsp;<a href="register" class="register">免费注册</a>'));
+				  	//重置用户信息
+				  	$.cookie("login",JSON.stringify(clearCookie),{expirce:7,path:"/"});	
+				  	 
+				  	    
+				    
+				})
+				
+			})
+
+			</script>
+
+	</div>
+
+</div>
+
+<div class="wrap-header">
+	<div class="header">
+		<div class="logo">
+		<img src="img/common/logo.png" alt="" />
+		</div>
+		<div class="header-center"><a href="#"></a></div>
+		<div class="header-right">
+			<div class="shopcar"><i class="fa fa-shopping-cart"></i></div>
+			<span>我的购物车<i class="fa fa-angle-down"></i></span>
+		</div>
+	</div>
+</div>
+
+
+

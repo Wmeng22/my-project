@@ -1,0 +1,129 @@
+
+/*头部样式*/
+body{background: #f9f9f9;}
+.wrap-top{background: #f4f4f4;width: 100%;height:28px; border-bottom: 1px #e8e8e8 solid;}
+.wrap-top .top{width: 1080px; margin: 0 auto; height: 28px;line-height: 28px;}
+.top ul{float: right;}
+.top .register{color: red}
+.top ul li{float: left;margin: 0 12px;}
+.top ul li i{padding-left: 8px;}
+.top ul li a:hover{text-decoration: underline;}
+.top ul li.seg{margin: 7px 0; height:15px;width: 1px;background: #ddd;}
+
+.wrap-header{background: #fff; width: 100%;}
+.wrap-header .header{width: 1080px; height: 90px;margin: 0 auto;}
+.header .logo{float: left;width: 250px;height: 60px;margin-top: 15px;}
+.header .header-center{float:left;width: 390px;height: 40px;background: url(../img/common/logo-right.png);margin-left: 275px;margin-top: 25px;}
+.header .header-right{height: 34px;line-height:34px;width: 133px;float: right;margin-top: 28px;border-radius:10px;background: #ff647c; position: relative;}
+.header .header-right .shopcar{position: absolute;left:-18px;width: 32px;height: 32px;line-height:32px;text-align: center;color: #fff;border: solid 2px #fff;border-radius:18px;top:0;z-index: 8px;background: #444;}
+.header .header-right span{color: #fff;font-size: 15px;height: 17px;padding-left: 24px;}
+.header .header-right span i{color:#fff;font-size: 20px;margin-left: 4px;font-weight: bold;}
+.header .header-right .shopcar i{font-size: 16px;color: #fff;margin-left: 6px;}
+
+.wrap-nav{background: #ff647c; width: 100%;}
+.wrap-nav .nav{width: 1080px;margin: 0 auto;height: 38px;}
+.wrap-nav .left{float: left;}
+.wrap-nav .left li{float:left;height: 38px;line-height: 38px;width: 100px;text-align: center;}
+.wrap-nav .left li:first-child{background: #f34660;}
+.wrap-nav .left li:hover{background: #f34660;}
+.wrap-nav .left .item{position: relative;}
+.wrap-nav .left .item img{position: absolute;left: 73px;top:-4px;}
+.wrap-nav .left li a{color:#fff;font-size: 15px;font-weight: 700;}
+
+.wrap-nav .right{height: 38px;line-height: 38px;float: right;}
+.wrap-nav .classfiy{position:relative;float: left;width: 100px;cursor: pointer;text-align: right;}
+.wrap-nav .right span{color: #fff;font-size: 12px;}
+.wrap-nav .right i{margin: 4px 5px 0;color: #fff;font-size: 12px;}
+.wrap-nav .search{float: right;height:28px;width: 215px;position: relative;}
+.wrap-nav .search input{background:#fff;outline: 0;border-radius: 2px;border: 1px solid #e6e6e6;height: 26px;line-height: 26px;width: 200px;padding: 0 5px;font-size: 12px;color: #666;}
+.wrap-nav .search .icon{position: absolute;right: 4px;top:3px;width: 20px;height: 24px;}
+.wrap-nav .search .icon i{font-size: 17px;color: #afafaf;}
+.wrap-nav .search .icon i:hover{    color: #ff4965;}
+
+/*显示隐藏的导航*/
+.right .list{display:none;z-index:20;position: absolute;left: -175px;top:38px;width: 490px;background: #fff;    border: 1px solid #ececec;overflow: hidden;}
+.right .list .list-left li .show{background: #fff;border-right:1px solid #fff;color: #ff4965;}
+
+.right .list .list-left{width: 110px;float: left;position: relative;color: #ff4965;}
+.right .list .list-left li p{width: 80px;padding-right: 30px;height:34px;line-height: 34px;border-right: 1px solid #e0e0e0; border-bottom: 1px solid #ececec;text-align: right;background: #f9f9f9;color: #666;cursor: pointer;}
+.right .list .list-left li .first{background: #fff;border-right:1px solid #fff;}
+.list  .list-left .ul-first{display: block;}
+.list .list-right{display:none;padding:10px;position: absolute;left: 112px;top: 0;width: 379px;height: 563px;}
+
+.list-left .list-right li{text-align: center;padding: 15px 14px 6px 14px;float: left;cursor:pointer;overflow: hidden;width: 60px;height:90px;border-right: 1px dashed #ececec;    border-bottom: 1px dashed #ececec;}
+.list-left .list-right li label{color: #999;}
+.list-left .list-right li label:hover{color: #ff4965;}
+
+/*鼠标滑过时的样式*/
+.crrent{background: #fff;color: #ff4965;border-right:1px solid #ff;}
+
+
+
+.wrap-menu{width: 100%;background: #fff;box-shadow:0 1px 5px #bbb;}
+.wrap-menu .menu{width: 1080px;height: 30px;margin: 0 auto;}
+.wrap-menu .menu ul{line-height: 30px;}
+.wrap-menu .menu li{float:left;}
+.wrap-menu .menu li a{margin: 0 12px 0 0;padding: 0 10px;padding: 0 10px;color: #999;display: block;height:27px;border-bottom: 3px solid #fff;}
+.wrap-menu .menu li a:hover{border-bottom: 3px solid red;}
+.zhiniao {position: relative;}
+.zhiniao .hot{position: absolute;width: 24px;top:4px;left:50px;height: 11px;background: url(../img/common/hot.png) no-repeat;}
+.wrap-menu .seg{height:21px;width: 1px;background: #ddd;margin:5px 20px 0 30px ;}
+.wrap-menu .age i{margin: 0px 5px 0;color: #999;font-size: 12px;}
+.wrap-menu .tomorrow i{margin: 0px 5px 0;color:#ff506b;font-size: 13px;}
+.wrap-menu .menu li.tomorrow {color:#ff506b;font-size: 13px;float: right;padding:0 28px;background: #f7f7f7;}
+
+/*固定在右侧的菜单*/
+.side-pansel .carNum{position: absolute;color: #fff;background: #7DCA00;font-size: 11px;right: 3px;top: 7px;width: 14px; display: inline-block;text-align: center;border-radius: 50%; height: 14px;  line-height: 14px;}
+.side-pansel{position: fixed;width:70px;opacity: 0.75;    border: 1px solid #e6e6e6;background: #fff;z-index: 100;right: 10px;bottom: 110px;}
+.side-pansel li{text-align: center;width: 70px;height: 27px;line-height: 27px;    border-top: 1px solid #e6e6e6;position: relative;cursor: pointer;padding:8px 0 ;}
+.side-pansel li i{font-size: 18px;color: #ff647c;}
+.side-pansel .codes{display:none;height:224px;position: absolute;width: 160px;top:-62px ;left: -184px;border: 2px solid #ff4965;padding: 10px;}
+.side-pansel .codes p{text-align: center;color: #333;line-height: 16px;font-size: 13px;}
+.side-pansel .codes img{margin-top: 10px;}
+ .car{border: 1px solid rgb(255, 84, 130);position: absolute;bottom: -100px;left:-350px;width: 350px;}
+.car .carlist li{border-bottom:dashed 1px #eee;padding: 12px;overflow: hidden;height: 60px;width: 350px;}
+.car .carlist li a img{border: 2px solid rgb(204, 204, 204);    padding: 2px; width: 50px; height: 50px;z-index: 4;}
+.car .carlist li a{display:block;float: left;width: 58px;height: 58px;}
+
+.car .carlist li p{float: left;border: none;}
+.car .carlist li .ititle{width:200px;text-align:left;line-height: 1.2em; height: 30px;font-size: 13px;z-index: 3;  }
+.car .carlist li .ititle span{padding-top: 10px;color: rgb(170, 170, 170)}
+.car .carlist li .iprice{float: right;}
+
+
+
+.side-pansel .car p{background: rgb(255, 249, 251);text-align: center;padding: 2px 12px; border-bottom: 1px solid rgb(227, 227, 227);}
+.side-pansel .car p span{color: rgb(255, 84, 130);}
+.side-pansel .car ul{background: rgb(255, 255, 255);overflow: hidden;}
+.side-pansel .car .car-bottom{height: 47px;line-height:47px;border-top:1px solid rgb(227, 227, 227);    background: rgb(255, 249, 251);}
+.car-bottom .car-left{float: left;width: 144px;text-align: center;height: 47px;line-height: 47px;}
+.car-bottom  span.price{color: rgb(229, 51, 99);}
+.car-bottom .go-car span{color: #fff;}
+.car-bottom a{float:right;margin-right:16px;margin-top:5px;display: block;text-align: center;background: rgb(255, 84, 130);border-radius: 4px;width: 123px;height: 35px;line-height: 35px;}
+.car-bottom a i,span{color: #fff;}
+
+/*固定在头部的样式*/
+.wrap-fixed{display:none;box-shadow: 0 1px 5px #bbb;width: 100%;background: #fff;position: fixed;top: 0;left: 0;z-index: 999;height: 37px;}
+.wrap-fixed .fixed{width: 1080px;margin: 0 auto;height: 37px;}
+.fixed .fix-logo{float:left;width: 98px;height: 48px;margin-right: 18px;background: url(../img/index/92788ffe070a9643a1bc1d8e2284b182.png) no-repeat center;}
+.fixed ul{float: left;}
+.fixed ul li{float: left;height: 37px;line-height: 37px;text-align: center;}
+.fixed ul li a{margin: 0 12px 0 0;padding: 10px;color: #999;border-bottom:border-bottom: 3px solid #fff;}
+.fixed ul li a:hover{border-bottom: 3px solid red;}
+.fixed ul .overworld{margin-left:54px;text-align: center;width: 100px;padding: 0 8px;float: left;border-right: 1px solid #ddd;background: #f7f7f7;}
+.fixed ul .overworld i,span{color: #7f4dbc;}
+.fixed ul .limit{text-align: center;width: 100px;padding: 0 12px;float: left;background: #f7f7f7;}
+.fixed ul .limit i,span{color: #ff506b;}
+
+
+
+/*尾部样式*/
+.wrap-footer{text-align: center;color: #666;margin-top: 35px;}
+.footer{border-top: 3px solid #FF5482;background: #555;padding:10px 0 ;color: #ddd;}
+.footer a{color: #ddd;margin: 0 10px;}
+.wrap-footer .footer-last{width: 1080px;margin: 20px auto;}
+
+.wrap-footer .mt-8{margin:20px 0 40px 0;}
+
+
+

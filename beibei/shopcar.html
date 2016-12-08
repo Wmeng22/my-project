@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>购物车</title>
+	<link href="css/base.css" type="text/css" rel="stylesheet"/>
+    <link href="css/common.css" rel="stylesheet"/>
+    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="css/shopcar.css" rel="stylesheet"/>
+    
+</head>
+<body>
+
+<div id="header"></div>
+<div class="wrap-content">
+	<div class="content">
+		<div class="mycar clear">
+			<h1>我的购物车</h1>
+			<h3><img src="img/shopcar/我的购物车_03.jpg" alt="" /></h3>
+		</div>
+		<!--购物车为空时-->
+		<div class="car-empty">
+			<p><i class="fa fa-shopping-cart"></i>你的购物车还是空的快去挑选商品吧>></p>
+		</div>
+		
+		<!--表格-->
+		<div class="cart-list p20">
+        <form class="pure-form">
+            <table class="pure-table">
+                <thead>
+                    <tr>
+                        <th class="cart-th-check">
+                            <input type="checkbox" checked="checked" class="J_checkAll"> 全选
+                        </th>
+                        <th class="cart-th-item-info">商品</th>
+                        <th class="cart-th-item-sku">商品信息</th>
+                        <th class="cart-th-item-price">单价(元)</th>
+                        <th class="cart-th-number">数量</th>
+                        <th class="cart-th-subtotal">小计(元)</th>
+                        <th class="cart-th-ops">操作</th>
+                    </tr>
+                </thead>
+            
+                <tbody class="view-CartList">
+                	<tr class="seg-entry"></tr>
+                	<tr class="event-entry J_eventEntry" id="ss">
+                		<td colspan="7"><input type="checkbox" class="J_eventCheck" checked="checked"><span class="event-title"><a href="#" target="_blank">粉恩特卖专场</a></span><em class="green-tag" style="display:inline;">满减</em> <span class="promotions-info" style="display:inline;">满119元减20元，满159元减30元</span>
+                			
+                		</td>
+                	</tr>
+                	<!--加载内容-->
+                	<!--<tr class="item-entry view-ItemEntry ">
+                		<td class="cart-td-check first-for-ie"><input class="J_itemCheck" type="checkbox" checked="checked"></td>
+                		<td class="cart-td-item-info clearfix">
+                			<a class="image" href="#">
+                			<img src="http://b1.hucdn.com/upload/item/1611/22/94842917737683_800x800.jpg!60x60.jpg">
+                			</a>
+                			<a class="title" href="#">粉恩冬季宝宝1-3岁毛毛衣</a>
+                		</td>
+                		<td class="cart-td-item-sku">
+                			<p>颜色 : 粉色<br>尺寸 : 80</p>
+                		</td>
+                		<td class="cart-td-item-price">
+                			<p class="view-ItemEntryPrice">69.00</p>
+                			<p class="strike">399.00</p>
+                		</td>
+                		<td class="cart-td-number">
+                			<div>
+                				<a href="javascript:;" class="number-op del-num disable view-ReductionItemNumBtn">
+                					<i class="fa fa-minus"></i>
+                				</a>
+                				<input class="view-ItemEntryNum" type="text" value="1">
+                				<a href="javascript:;" class="number-op add-num view-AdditionItemNumBtn">
+                					<i class="fa fa-plus"></i>
+                				</a>
+                			</div>
+                			<div class="cart-td-tip">
+                				<p class="view-ItemEntryNumTipPurchase tip-purchase">
+                					<i class="fa fa-plus"></i>限购<span>5</span>件
+                				</p>
+                				<!--<p class="view-ItemEntryNumTipLeftnum tip-leftnum">
+                					<i class="iconfont"></i>即将售罄
+                				</p>
+                				<p class="view-ItemEntryNumTipStock tip-stock">
+                					<i class="iconfont">󰅓</i>仅剩<span>48</span>件
+                				</p>-->
+                			<!--</div>
+                		</td>
+                		<td class="cart-td-subtotal">
+                			<span class="price view-ItemSubtotal">69.00</span>
+                		</td>
+                		<td class="cart-td-ops last-for-ie">
+                			<a href="javascript:;"  class="view-DelItemBtn">删除</a>
+                		</td>
+                	</tr>-->
+                	
+                	
+                	
+                	<tr class="footer-entry view-FooterEntry " >
+                		<td colspan="7">
+                			<div class="subtotal-row" style="display: none;"><span class="price view-EventTaxFee">0.00</span><span class="title">进口税：</span></div><div class="subtotal-row" style="display: none;"><span class="price view-EventDiscountFee">0.00</span><span class="title">促销优惠：</span></div><div class="subtotal-row"><span class="price view-EventTotal">69.00</span><span class="title">小计：</span></div><div class="subtotal-row view-FooterProm hidden" style="display: none;"><span class="price"><em>(满<span>159元</span>)</em> -<span>30.00</span></span><span class="title">专场满减：</span></div><div class="subtotal-row oversea-price-over hidden"><span class="title" style="color: #FF5482"></span></div><div class="promotion-notice view-PromotionNotice" style="display: block;"><p> <span>凑50.0元可优惠20元，凑90.0元可优惠30元</span><a href="http://www.beibei.com/martshow/242265.html" target="_blank">去凑凑看&gt;&gt;</a></p></div><div class="subtotal-row view-FooterPacketContainer hidden" style="display: none;"><span class="price">-0.00</span><select class="view-SelectPacket select-packet" data-eventid="242265"><option value="-1">选择品牌红包</option><option value="0">不使用红包</option></select></div><div class="view-EventSubtotal subtotal-row topline" style="display: none;"><span class="price">69.00</span></div>
+                			
+                		</td>
+                		</tr>
+                </tbody>
+            </table>
+            <!--购物车为空时-->
+            
+            <div class="m-activity-tip J_activityTips"><ul><li><span class="J_icon icon-image"><img src="http://b0.hucdn.com/party/default/upload_5b4d8466997e5950447f2564008f7d96_90x24.png" style="width:90px;height:24px;"></span><span class="text-desc">再购买10元即可使用【全场通用（除奶粉、尿裤、虚拟商品、圈儿）券】</span></li></ul></div>
+
+
+            <div class="m-pay-bar-cont view-PaybarCont">
+                <div id="pay-bar" class="view-TotalBar z-bar-fixed">
+                    <a id="pay-btn" class="cart-pay-btn fr view-ConfirmOrder" href="javascript:">确认订单</a>
+                    <span class="view-TotalBarPrice">
+                        
+                        <span class="cart-payment price mr-15 fr" op-value="totalPrice"><b class="u-yen-icon">¥</b>0.00</span>
+                    </span>
+                    <div class="cart-summary mr-15 fr view-TotalBarPromoFee">
+                        已优惠 <span class="red J_totalFee" op-value="totalFee">0.00</span> 元，<span class="J_totalFeeNotice">总计(不含运费)</span>：
+                    </div>
+                    <div class="cart-summary fr view-TotalBarNum">
+                        共有 <span class="red" op-value="totalNum" id="totalnum">0</span> 件商品，
+                    </div>
+                    <div class="clearfix cart-total-bar">
+                        <input type="checkbox" id="s-all-f" checked="checked" class="s_all_slave cart_vm J_checkAll" name="s_all">
+                        <label for="s-all-f">全选</label>
+                        <a id="cartRemoveChecked" class="ml-15 underline grey view-BatchDelBtn" href="javascript:;">删除</a>
+
+                        
+                    </div>
+                </div>
+            </div>
+            <p class="minato-text view-MinatoText"></p>
+        </form>
+    </div>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	</div>
+	
+</div>
+
+
+
+<div id="footer"></div>
+
+
+<script src="lib/jquery-2.1.1.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+	loadHtml("common/header.html","header");
+	loadHtml("common/footer.html","footer");
+</script>
+<script src="lib/jquery.cookie.js"></script>
+<script src="js/shopcar.js"></script>
+
+</body>
+
+</html>

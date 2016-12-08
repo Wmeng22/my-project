@@ -1,0 +1,37 @@
+
+
+body{background: #fff;}
+.r-wrap-header{width: 100%;}
+.r-header{width: 1080px;margin: 0 auto;padding-top: 45px ;height: 105px;}
+.r-header-left{float: left;}
+.r-header-left a{display:block;height:60px;width:250px;background:url(../img/register/main_logo5.png) no-repeat 0 0 ;}
+.r-header-right{float: right;}
+.r-header-right a{display: block;height: 50px;width: 360px;background: url(../img/register/01.png) no-repeat 0 3px;}
+
+.r-wrap-content{width: 100%;}
+.r-content{width: 1080px;margin: 0 auto;padding: 110px 0;}
+.r-content .left{margin-left:50px;float:left;width: 500px;height: 354px;background: url(../img/register/02.png) no-repeat;}
+.r-content .right{float:right;color: #666;width: 400px;border: 1px solid #ececec;border-top: 2px solid #ff4965;}
+.r-content form{padding: 50px 35px;}
+.r-content .title{font-size: 14px;color: #000;font-weight: 700;margin-bottom: 30px;}
+.r-content form .title .txt {font-size: 12px;font-weight: 400;float: right;}
+.r-content form .title .txt span{color: #666;}
+.r-content .txt a{color: red;}
+.r-content .group{line-height:34px;color:#e6e6e6;width:320px;height:34px;margin-top: 15px;border: 1px solid #e6e6e6;border-radius: 2px;padding-left: 10px;position: relative;}
+.r-content .group i{font-size: 14px;margin-right: 8px;}
+.r-content .group input{width: 278px;height: 34px;line-height: 34px;outline: 0;}
+.notice{display:none;font-size:13px;height: 18px;line-height: 18px;margin-top: 8px;color: #fe4b49;}
+.r-content .select{float:left;line-height:34px;color:#e6e6e6;width:227px;height:34px;margin-top: 15px;border: 1px solid #e6e6e6;border-radius: 2px;padding-left: 10px;position: relative;}
+.r-content .select i{font-size: 14px;margin-right: 8px;}
+.r-content .select input{width: 193px;height: 34px;line-height: 34px;outline: 0;}
+.r-content .idcode{float: left;width: 82px;height: 30px;margin-top: 23px;margin-left: 8px;}
+.r-content .register{line-height:32px;font-size:14px;color:#fff;width:330px;height:32px;margin-top: 15px;background: #ff8094;border-radius: 3px;letter-spacing: 6px;text-align: center;}
+.r-content .tip{margin-top: 15px;}
+.r-content .tip span{color: #666666;}
+.r-content .tip a{color: #ff8094;;}
+.r-content .tip1 a{display: block;float: left;width: 25px;height: 24px;margin: 0 4px;}
+.r-content .tip1 .t{display: block;width:84px ;margin-top: 5px;}
+.qq{background: url(../img/register/qq.png) no-repeat 1px 0;}
+.taobao{background: url(../img/register/qq.png) no-repeat -59px 0;}
+.weixin{background: url(../img/register/qq.png) no-repeat -119px 0;}
+
